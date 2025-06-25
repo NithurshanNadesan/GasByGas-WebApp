@@ -28,7 +28,7 @@ async function initializeTable() {
             if (data.status === "dispatch") {
                 // If status is "dispatch", disable buttons
                 actionButtons = `
-                    <button class="btn btn-warning btn-sm edit-button" data-id="${doc.id}" disabled>Edit</button>
+                    <button class="btn btn-warning btn-sm edit-button" data-id="${doc.id}">Edit</button>
                     <button class="btn btn-primary btn-sm dispatch-button" data-id="${doc.id}" disabled>Dispatch</button>
                 `;
             } else {

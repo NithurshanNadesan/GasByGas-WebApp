@@ -104,7 +104,7 @@ function displayReallocationForm(tokenDocRef, tokenData) {
                     // Add a notification document with an auto-generated ID
                     await addDoc(collection(db, "notifications"), {
                         sender: outletName,
-                        message: "Dear Customer, We are pleased to inform you that a gas cylinder token has been allocated to you. Please visit our outlet and handover empty and money to collect it .",
+                        message: "Dear Customer, We are pleased to inform you that a gas cylinder token has been allocated to you (Through Reallocation Process). Please visit our outlet and handover empty and money to collect it .",
                         receiver: customerID,
                         timestamp: Timestamp.now(), // Store the current timestamp
                     });
