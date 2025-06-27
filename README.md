@@ -55,7 +55,6 @@
 - **Backend**: Firebase Firestore
 - **Charts**: Chart.js, Doughnut chart
 - **PDF**: jsPDF
-- **Mobile**: React Native (Expo)
 - **Popups**: SweetAlert2
 - **Testing**: Jest
 
